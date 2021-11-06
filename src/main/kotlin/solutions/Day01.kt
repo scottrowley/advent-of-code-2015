@@ -13,9 +13,9 @@ fun main(args: Array<String>) {
   )
 }
 
-fun part1(input: String): Int = input.count { it == '(' } - input.count { it == ')' }
+private fun part1(input: String): Int = input.count { it == '(' } - input.count { it == ')' }
 
-fun part2(input: String): Int {
+private fun part2(input: String): Int {
   var floor = 0
   var position = 0
 
